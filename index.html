@@ -14,28 +14,33 @@
     }
 
     body {
+      min-height: 100vh;
       background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
       color: #f1f5f9;
-      min-height: 100vh;
       padding: 40px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
     }
 
     h1 {
       font-size: 3rem;
-      margin-bottom: 10px;
       color: #38bdf8;
+      margin-bottom: 10px;
     }
 
-    p {
+    .subtitle {
       font-size: 1.1rem;
-      margin-bottom: 30px;
       color: #e5e7eb;
+      margin-bottom: 40px;
     }
 
     h2 {
-      margin-top: 40px;
-      margin-bottom: 15px;
       font-size: 1.6rem;
+      margin-bottom: 15px;
+      margin-top: 40px;
       border-left: 5px solid #38bdf8;
       padding-left: 12px;
     }
@@ -46,15 +51,15 @@
 
     li {
       background: rgba(255, 255, 255, 0.08);
-      padding: 16px 20px;
+      padding: 18px 22px;
+      border-radius: 14px;
       margin-bottom: 15px;
-      border-radius: 12px;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      transition: 0.25s ease;
     }
 
     li:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      transform: translateY(-6px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
     }
 
     strong {
@@ -76,11 +81,19 @@
 
     .links a {
       margin-right: 20px;
+      font-size: 1.05rem;
     }
 
-    .contact {
-      margin-top: 10px;
-      font-weight: 500;
+    .contact a {
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #cbd5f5;
+      opacity: 0.8;
     }
 
     @media (max-width: 600px) {
@@ -93,62 +106,71 @@
       }
     }
   </style>
-
 </head>
 <body>
 
-  <h1>Nikoloz Makharadze</h1>
+  <div class="container">
 
-  <p>
-    Computer Science student interested in Front-end development and modern web technologies.
-  </p>
+    <h1>Nikoloz Makharadze</h1>
+    <p class="subtitle">
+      Computer Science student interested in Front-end development and modern web technologies.
+    </p>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <strong>MIPS Arbitrary Precision Arithmetic</strong><br>
-      <a href="https://github.com/Nikooo066/MIPS_Arbitrary_Precision_Arithmetic" target="_blank">
-        GitHub Repository
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>MIPS Arbitrary Precision Arithmetic</strong><br>
+        <a href="https://github.com/Nikooo066/MIPS_Arbitrary_Precision_Arithmetic" target="_blank">
+          GitHub Repository
+        </a>
+      </li>
+
+      <li>
+        <strong>AI-Powered API Test Case Generator</strong><br>
+        <a href="https://github.com/Nikooo066/AI-powered-API-Test-Case-Generator" target="_blank">
+          GitHub Repository
+        </a>
+      </li>
+
+      <li>
+        <strong>AI-Enhanced Data Analysis Tool (C++)</strong><br>
+        <a href="https://github.com/Nikooo066/AI-enhanced-Data-Analysis-Tool-C-" target="_blank">
+          GitHub Repository
+        </a>
+      </li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>Python, C++, MIPS Assembly</li>
+      <li>Algorithms & Low-level Programming</li>
+      <li>Git, GitHub, Prompt Engineering</li>
+      <li>HTML, CSS, JavaScript (Front-end basics)</li>
+    </ul>
+
+    <h2>Links</h2>
+    <p class="links">
+      <a href="https://www.linkedin.com/in/nika-makharadze-0a3b5b3a6/" target="_blank">
+        LinkedIn
       </a>
-    </li>
-
-    <li>
-      <strong>AI-Powered API Test Case Generator</strong><br>
-      <a href="https://github.com/Nikooo066/AI-powered-API-Test-Case-Generator" target="_blank">
-        GitHub Repository
+      <a href="https://github.com/Nikooo066" target="_blank">
+        GitHub
       </a>
-    </li>
+    </p>
 
-    <li>
-      <strong>AI-Enhanced Data Analysis Tool (C++)</strong><br>
-      <a href="https://github.com/Nikooo066/AI-enhanced-Data-Analysis-Tool-C-" target="_blank">
-        GitHub Repository
+    <h2>Contact</h2>
+    <p class="contact">
+      Email:
+      <a href="mailto:nikamaxaradze936@gmail.com">
+        nikamaxaradze936@gmail.com
       </a>
-    </li>
-  </ul>
+    </p>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Python, C++, MIPS Assembly</li>
-    <li>Algorithms & Low-level Programming</li>
-    <li>Git, GitHub, Prompt Engineering</li>
-    <li>Basic Front-end (HTML, CSS, JavaScript)</li>
-  </ul>
+    <footer>
+      © 2026 Nikoloz Makharadze
+    </footer>
 
-  <h2>Links</h2>
-  <p class="links">
-    <a href="https://www.linkedin.com/in/nika-makharadze-0a3b5b3a6/" target="_blank">
-      LinkedIn
-    </a>
-    <a href="https://github.com/Nikooo066" target="_blank">
-      GitHub
-    </a>
-  </p>
-
-  <h2>Contact</h2>
-  <p class="contact">
-    Email: <a href="mailto:nikamaxaradze936@gmail.com">nikamaxaradze936@gmail.com</a>
-  </p>
+  </div>
 
 </body>
 </html>
