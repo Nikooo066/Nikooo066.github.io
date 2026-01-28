@@ -4,6 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nikoloz Makharadze | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #f1f5f9;
+      min-height: 100vh;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #e5e7eb;
+    }
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 15px;
+      font-size: 1.6rem;
+      border-left: 5px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      background: rgba(255, 255, 255, 0.08);
+      padding: 16px 20px;
+      margin-bottom: 15px;
+      border-radius: 12px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    li:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    strong {
+      font-size: 1.1rem;
+      color: #f8fafc;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 8px;
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links a {
+      margin-right: 20px;
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+
 </head>
 <body>
 
@@ -46,13 +136,19 @@
   </ul>
 
   <h2>Links</h2>
-  <p>
-    <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a><br>
-    <a href="https://github.com/Nikooo066" target="_blank">GitHub</a>
+  <p class="links">
+    <a href="https://www.linkedin.com/in/nika-makharadze-0a3b5b3a6/" target="_blank">
+      LinkedIn
+    </a>
+    <a href="https://github.com/Nikooo066" target="_blank">
+      GitHub
+    </a>
   </p>
 
   <h2>Contact</h2>
-  <p>Email: your@email.com</p>
+  <p class="contact">
+    Email: <a href="mailto:nikamaxaradze936@gmail.com">nikamaxaradze936@gmail.com</a>
+  </p>
 
 </body>
 </html>
